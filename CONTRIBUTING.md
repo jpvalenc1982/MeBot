@@ -6,7 +6,7 @@ Gracias por tu interés en contribuir a MeBot, tu compañero de bienestar mental
 
 ### Reportar errores
 
-1.  Abre un nuevo "issue" en [nuestro repositorio de GitHub](https://github.com/tu-usuario/mebot/issues).
+1.  Abre un nuevo "issue" en [nuestro repositorio de GitHub](https://github.com/jpvalenc1982/MeBot/issues).
 2.  Describe el error con la mayor cantidad de detalles posible:
     *   Versión de MeBot
     *   Sistema operativo
@@ -16,7 +16,7 @@ Gracias por tu interés en contribuir a MeBot, tu compañero de bienestar mental
 
 ### Sugerir mejoras
 
-1.  Abre un nuevo "issue" en [nuestro repositorio de GitHub](https://github.com/tu-usuario/mebot/issues).
+1.  Abre un nuevo "issue" en [nuestro repositorio de GitHub](https://github.com/jpvalenc1982/MeBot/issues).
 2.  Describe tu sugerencia de mejora con la mayor cantidad de detalles posible.
 
 ### Enviar código
