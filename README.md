@@ -23,7 +23,7 @@ MeBot es el chatbot de SereneMe que utiliza la IA conversacional para responder 
 1.  Clona este repositorio: `git clone https://github.com/tu-usuario/mebot.git`
 2.  Instala las dependencias: `pip install -r requirements.txt`
 3.  Ejecuta la aplicación: `uvicorn main:app --reload`
-4.  Abre un navegador y ve a `http://127.0.0.1:8000/`
+4.  Abre un navegador y ve a `http://127.0.0.1:5000/`
 
 ## ¡Contribuye! 
 Si quieres contribuir a este proyecto, ¡eres bienvenido! Por favor, lee las [pautas de contribución](CONTRIBUTING.md) para obtener más información.
