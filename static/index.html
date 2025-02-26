@@ -1,20 +1,29 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MeBot - Chat de Bienestar</title>
-    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8"> <!-- Define la codificación de caracteres como UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Hace que la página sea responsive -->
+    <title>MeBot - Chat de Bienestar</title> <!-- Título de la página -->
+    <link rel="stylesheet" href="/static/styles.css"> <!-- Vincula el archivo CSS -->
+    <link rel="icon" href="/static/favicon.ico" type="image/x-icon"> <!-- Vincula el favicon -->
 </head>
 <body>
+    <!-- Contenedor principal del chatbot -->
     <div class="container">
-        <h1>¡Hola! 👋 Soy MeBot</h1>
-        <p>Tu compañero de bienestar mental. Escribe una pregunta y te responderé.</p>
-        <input type="text" id="pregunta" placeholder="Escribe tu pregunta aquí">
-        <button onclick="obtenerRespuesta()">Preguntar</button>
-        <div class="chat-container" id="chat"></div>
+        <h1>¡Hola! 👋 Soy MeBot</h1> <!-- Título del chatbot -->
+        <p>Tu compañero de bienestar mental. Escribe una pregunta y te responderé.</p> <!-- Descripción -->
+        
+        <!-- Contenedor para el campo de texto y el botón -->
+        <div class="input-group">
+            <input type="text" id="pregunta" placeholder="Escribe tu pregunta aquí"> <!-- Campo de texto para la pregunta -->
+            <button>Preguntar</button> <!-- Botón para enviar la pregunta -->
+        </div>
+    
+        <!-- Contenedor para el historial de preguntas y respuestas -->
+        <div id="historial"></div>
     </div>
 
-    <script src="script.js"></script>
+    <!-- Vincula el archivo JavaScript -->
+    <script src="/static/script.js"></script>
 </body>
 </html>
