@@ -40,6 +40,28 @@ MeBot te proporcionará información útil, consejos prácticos y recursos adici
 
 ---
 
+## Inteligencia Artificial y Machine Learning en MeBot
+
+MeBot está diseñado utilizando técnicas de **Inteligencia Artificial (IA)** y **Machine Learning (ML)** para proporcionar respuestas precisas y útiles a las preguntas de los usuarios. Aquí te explicamos cómo se aplican estos conceptos en el proyecto:
+
+### 1. **Procesamiento de Lenguaje Natural (NLP)**
+MeBot utiliza técnicas de **Procesamiento de Lenguaje Natural (NLP)** para entender las preguntas de los usuarios y generar respuestas coherentes. Esto incluye:
+- **Análisis de texto**: Identifica palabras clave y frases relevantes en las preguntas.
+- **Búsqueda de coincidencias**: Compara la pregunta del usuario con una base de datos de preguntas y respuestas predefinidas.
+
+### 2. **Búsqueda de coincidencias con Difflib**
+El módulo **Difflib** de Python se utiliza para encontrar la mejor coincidencia entre la pregunta del usuario y las preguntas en la base de datos. Esto permite a MeBot proporcionar respuestas precisas incluso cuando las preguntas no son idénticas.
+
+### 3. **Base de datos de conocimiento**
+MeBot utiliza un archivo CSV (`datos_salud_mental_preguntas.csv`) que contiene preguntas y respuestas relacionadas con la salud mental. Este dataset actúa como la "base de conocimiento" del chatbot.
+
+### 4. **Aprendizaje futuro (opcional)**
+En futuras versiones, MeBot podría integrar modelos de **Machine Learning** más avanzados, como:
+- **Modelos de lenguaje preentrenados** (por ejemplo, GPT o BERT) para generar respuestas más naturales.
+- **Sistemas de recomendación** para sugerir recursos personalizados basados en las necesidades del usuario.
+
+---
+
 ## Tecnologías utilizadas
 
 MeBot está construido con las siguientes tecnologías:
